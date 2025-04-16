@@ -15,7 +15,7 @@ page_bg = """
 <style>
 [data-testid="stMain"]{
     font-family: Arial, sans-serif;
-    background-color:#7DF9FF;
+    background-color:#FFF5EE;
     color: #333;
     margin: 0;
     padding: 20px;
