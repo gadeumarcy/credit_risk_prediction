@@ -30,6 +30,21 @@ page_bg = """
     color: black; /* Bleu principal */
    text-align: center;
    margin-bottom: 20px;
+   font-size: 10px;
+}
+[data-testid="stForm"]
+{
+ max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #a8d5ff; /* Bordure bleu clair */
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #0056b3;
 }
 </style>
 """
