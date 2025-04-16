@@ -15,14 +15,14 @@ page_bg = """
 <style>
 [data-testid="stAppViewContainer"]{
     font-family: Arial, sans-serif;
-    background-color: #F0FFFF;
+    background-color:#7DF9FF;
     color: #333;
     margin: 0;
     padding: 20px;
 }
 [data-testid="stImageContainer"] img{
      margin: auto;
-    width: 300px;
+    width: 200px;
     height: auto;
     display: block;
 }
