@@ -21,9 +21,10 @@ page_bg = """
     padding: 20px;
 }
 [data-testid="stImageContainer"] img{
-    margin: auto;
-  width: 300px;
-  height: 100px;
+     margin: auto;
+    width: 300px;
+    height: auto;
+    display: block;
 }
 </style>
 """
