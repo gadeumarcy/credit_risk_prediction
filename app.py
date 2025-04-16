@@ -16,7 +16,7 @@ st.title("💳 Prédiction du Risque de Crédit")
 
 st.markdown("<h1 style='text-align: center;'>Prédiction du Risque de Crédit</h1>", unsafe_allow_html=True)
 
-image = Image.open("logo.png")
+image = Image.open("logo.jpg")
 st.image(image, width=200, use_column_width=False)
 # Formulaire utilisateur
 with st.form("formulaire_credit"):
