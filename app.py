@@ -15,7 +15,7 @@ page_bg = """
 <style>
 [data-testid="stAppViewContainer"]{
     font-family: Arial, sans-serif;
-    background-color: #79BAEC; /* Bleu très clair */
+    background-color: #F0FFFF;
     color: #333;
     margin: 0;
     padding: 20px;
@@ -27,25 +27,12 @@ page_bg = """
     display: block;
 }
 [data-testid="stHeadingWithActionElements] h1{
-    color: black; /* Bleu principal */
+   color: black; /* Bleu principal */
    text-align: center;
    margin-bottom: 20px;
    font-size: 10px;
 }
-[data-testid="stAppViewContainer"]
-{
-  max-width: 600px;
-  margin: 20px auto;
-  background-color: red;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border: 2px solid #a8d5ff; /* Bordure bleu clair */
-  display: block;
-  margin-top: 10px;
-  font-weight: bold;
-  color: #0056b3;
-}
+
 </style>
 """
 st.markdown(page_bg,unsafe_allow_html=True)
