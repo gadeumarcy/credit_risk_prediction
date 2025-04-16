@@ -15,8 +15,8 @@ st.set_page_config(page_title="Prédiction du Risque de Crédit", layout="center
 st.title(" Prédiction du Risque de Crédit")
 
 
-image = Image.open("logo.jpg", use_column_width=True)
-st.image(image, width=200, use_column_width=False)
+image = Image.open("logo.jpg", use_container_width=True)
+st.image(image, width=200, use_container_width=False)
 # Formulaire utilisateur
 with st.form("formulaire_credit"):
     st.subheader("Informations Client")
