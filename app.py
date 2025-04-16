@@ -12,11 +12,12 @@ colonnes = joblib.load("colonnes.pkl")
 
 st.set_page_config(page_title="Prédiction du Risque de Crédit", layout="centered")
 
-st.title(" Prédiction du Risque de Crédit")
+
 
 
 image = Image.open("logo.jpg")
 st.image(image, use_container_width=True)
+st.title(" Formulaire de Prédiction du Risque de Crédit")
 # Formulaire utilisateur
 with st.form("formulaire_credit"):
     st.subheader("Informations Client")
