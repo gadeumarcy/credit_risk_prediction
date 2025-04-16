@@ -13,7 +13,7 @@ colonnes = joblib.load("colonnes.pkl")
 st.set_page_config(page_title="Prédiction du Risque de Crédit", layout="centered")
 page_bg = """
 <style>
-[data-testid="stAppViewContainer"]{
+[data-testid="stMain"]{
     font-family: Arial, sans-serif;
     background-color:#7DF9FF;
     color: #333;
