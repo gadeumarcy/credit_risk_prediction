@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import joblib
+from PIL import Image
+
+
 
 # Chargement du modèle et des colonnes
 modele = joblib.load("modele_credit.pkl")
@@ -11,6 +14,10 @@ st.set_page_config(page_title="Prédiction du Risque de Crédit", layout="center
 
 st.title("💳 Prédiction du Risque de Crédit")
 
+st.markdown("<h1 style='text-align: center;'>Prédiction du Risque de Crédit</h1>", unsafe_allow_html=True)
+
+image = Image.open("logo.png")
+st.image(image, width=200, use_column_width=False)
 # Formulaire utilisateur
 with st.form("formulaire_credit"):
     st.subheader("Informations Client")
