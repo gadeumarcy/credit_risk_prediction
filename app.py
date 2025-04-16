@@ -11,8 +11,18 @@ scaler = joblib.load("scaler.pkl")
 colonnes = joblib.load("colonnes.pkl")
 
 st.set_page_config(page_title="Prédiction du Risque de Crédit", layout="centered")
-
-
+page_bg = """
+<style>
+[data-testid="stAppViewContainer"]{
+    font-family: Arial, sans-serif;
+    background-color: #79BAEC; /* Bleu très clair */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+</style>
+"""
+st.markdown(page_bg,unsafe_allow_html=True)
 
 
 image = Image.open("logo.jpg")
