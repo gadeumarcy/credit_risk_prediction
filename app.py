@@ -20,6 +20,11 @@ page_bg = """
     margin: 0;
     padding: 20px;
 }
+[data-testid="stImageContainer"] img{
+    margin: auto;
+  width: 300px;
+  height: 100px;
+}
 </style>
 """
 st.markdown(page_bg,unsafe_allow_html=True)
