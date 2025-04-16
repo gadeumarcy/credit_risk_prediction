@@ -32,7 +32,7 @@ page_bg = """
    margin-bottom: 20px;
    font-size: 10px;
 }
-[data-testid="stMainBlockContainer"]
+[data-testid="stElementContainer"]
 {
   max-width: 600px;
   margin: 20px auto;
