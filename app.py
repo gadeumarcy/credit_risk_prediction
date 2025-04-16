@@ -26,6 +26,11 @@ page_bg = """
     height: auto;
     display: block;
 }
+[data-testid="stHeadingWithActionElements] h1{
+    color: black; /* Bleu principal */
+   text-align: center;
+   margin-bottom: 20px;
+}
 </style>
 """
 st.markdown(page_bg,unsafe_allow_html=True)
