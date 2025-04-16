@@ -32,9 +32,9 @@ page_bg = """
    margin-bottom: 20px;
    font-size: 10px;
 }
-[data-testid="stForm"]
+[data-testid="stMainBlockContainer"]
 {
- max-width: 600px;
+  max-width: 600px;
   margin: 20px auto;
   background-color: #fff;
   padding: 30px;
