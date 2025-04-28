@@ -58,6 +58,10 @@ Ce projet couvre l'ensemble du cycle de vie d'un projet Data Science, de l'analy
 ![streamlit_1](https://github.com/user-attachments/assets/b4cc42c3-b371-4c15-811f-fb2e0a9001ff)
 ![streamlit_2](https://github.com/user-attachments/assets/5d36431b-1979-4cc4-aa5a-ed4b7af3e055)
 
+🌐 Accéder directement en ligne
+
+    👉 [Application Streamlit déployée ici](https://creditriskprediction-b9vddkplw8svabep2gujwd.streamlit.app/)
+
 ✨ Ce que j'ai appris
 
     Gérer des jeux de données déséquilibrés avec SMOTE.
